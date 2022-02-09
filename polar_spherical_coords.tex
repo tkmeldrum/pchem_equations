@@ -1,0 +1,26 @@
+\subsubsection{Polar}
+\begin{align*}
+x&=r\cos\phi\\
+y&=r\sin\phi\\
+r&=\sqrt{x^2+y^2}\\
+\phi&=\tan^{-1}{\frac{y}{x}}\\
+&\left(\frac{\partial ^2}{\partial x^2} + \frac{\partial ^2}{\partial y^2}\right)_{r=r_0} = \frac{1}{r_0^2}\frac{\partial^2}{\partial \phi^2}
+\end{align*}
+
+\subsubsection{Spherical}
+\begin{align*}
+x&=r\sin\theta\cos\phi\\
+y&=r\sin\theta\sin\phi\\
+z&=r\cos\theta\\
+r&=\sqrt{x^2+y^2+z^2}\\
+\theta&=\cos^{-1}\frac{z}{\sqrt{x^2+y^2+z^2}}\\
+\phi&=\tan^{-1}{\frac{y}{x}}\\
+dV&=dx\,dy\,dz=r^2\,\sin\theta\, dr\, d\theta\, d\phi\\
+&\nabla^2_{r=r_0} = \cdots\\
+&\left(\frac{\partial ^2}{\partial x^2} + \frac{\partial ^2}{\partial y^2} + \frac{\partial ^2}{\partial z^2}\right)_{r=r_0} =\cdots\\
+& \frac{1}{r_0^2}\left[\frac{1}{\sin\theta}\frac{\partial}{\partial \theta}\left(\sin \theta \frac{\partial}{\partial \theta} \right)_{r,\phi} + \frac{1}{\sin^2\theta}\left(\frac{\partial^2}{\partial \phi^2} \right)_{r,\theta}\right]\\
+\\
+&\nabla^2=\cdots\\
+&\frac{1}{r^2}\frac{\partial}{\partial r} \left( r^2 \frac{\partial}{\partial r} \right)_{\theta,\phi} + \frac{1}{r^2 \sin \theta}\frac{\partial}{\partial \theta}\left(\sin \theta \frac{\partial}{\partial \theta} \right)_{r,\phi} \cdots \\
+&+ \frac{1}{r^2 \sin^2 \theta}\left(\frac{\partial^2}{\partial \phi ^2}\right)_{r,\theta}
+\end{align*}
