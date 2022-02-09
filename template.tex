@@ -1,0 +1,45 @@
+\documentclass[10pt]{article}
+\usepackage{multicol}
+\usepackage{calc}
+\usepackage[letterpaper,portrait]{geometry}
+\usepackage[fleqn]{mathtools}
+\usepackage{amsmath,amsthm,amsfonts,amssymb}
+\usepackage[normalem]{ulem}
+\usepackage{hyperref}
+\usepackage{siunitx,booktabs,cancel,caption,cleveref,colortbl,csquotes,helvet,mathpazo,multirow,listings,pgfplots,xcolor}
+
+\geometry{top=0.5in,left=.5in,right=.5in,bottom=0.5in}
+
+% Turn off header and footer
+\pagestyle{empty}
+
+% Don't print section numbers
+\setcounter{secnumdepth}{0}
+
+% Include some SI units that aren't normally present
+\DeclareSIUnit[number-unit-product = {}]{\centimeter}{cm}
+\DeclareSIUnit[number-unit-product = {}]{\gram}{g}
+\DeclareSIUnit[number-unit-product = {}]{\atm}{atm}
+\DeclareSIUnit[number-unit-product = {}]{\cal}{cal}
+
+\setlength{\mathindent}{0cm}
+
+\begin{document}
+\raggedcolumns
+
+% adjust the number of columns as needed
+\begin{multicols*}{1}
+
+%for each subsection, add a heading (e.g., \subsection) and input the corresponding file
+\subsection{Constants and units}
+\input{constants.tex}
+
+%\subsection{Kinetic Molecular Theory}
+%\input{KMtheory.tex}
+
+\subsection{Thermodynamics}
+\input{thermo.tex}
+
+\end{multicols*}
+
+\end{document}

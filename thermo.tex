@@ -1,25 +1,28 @@
 \begin{align*}
-\delta w&=-p_{ext}dV; w=-p_{ext}\Delta V\\
+%\delta w&=-p_{ext}dV\\
+\Delta U &= w + q\\
+w&=-p_{ext}\Delta V\\
 w_{\textrm{iso-T}}&=-\int_{V_1}^{V_2}\frac{nRT}{V}dV=-nRT\ln\frac{V_2}{V_1}\\
-C_V&=\left(\frac{\partial U}{\partial T}\right)_V; C_p=\left(\frac{\partial H}{\partial T}\right)_p\\
-\Delta H &= \int dH=\int C_p(T)dT\\
+H &= U + pV\\
+\Delta H &= q_p = \int dH=\int C_p(T)dT\\
+C_V&=\left(\frac{\partial U}{\partial T}\right)_V\\
+C_p&=\left(\frac{\partial H}{\partial T}\right)_p\\
 C_p&=C_V+nR\\
 %&\textcolor{blue}{C_{p,\textrm{low-T}}\propto T^3; S\left(T=T_{\textrm{low}}\right)=C_p/3}\\
 %&U_{\textrm{monatomic ideal gas}}=\frac{3}{2}nRT\\
-\Delta U &= w + q\\
 \Delta S &= \frac{q_{rev}}{T}= nR\ln \frac{V_2}{V_1} + C_V \ln \frac{T_2}{T_1}\\
 \Delta S &= \int \frac{C_p}{T} dT + \sum_i\frac{\Delta_{trs} H}{T}\\
-\ulcorner \frac{S}{R}&=\frac{7}{2}+\ln {\left[ \left( \frac{2\pi m k_B T}{h^2}\right)^{3/2}\frac{V}{N}\right]} + \ln {\left[ \frac{T}{\sigma \theta_{rot}}\right]}\ldots\\
-\ldots + &\frac{\theta_{vib}}{T}\left(\frac{1}{e^{\theta_{vib}/T}-1}\right) - \ln{\left[ 1-e^{-\theta_{vib}/T}\right]} + \ln{\left[ g_{e1}\right]}\lrcorner\\
-\frac{p_2}{p_1}&=\left(\frac{V_1}{V_2}\right)^{\gamma}\\
-V_2&=\frac{V_1}{\gamma}\left[\gamma -1 +\frac{p_1}{p_2}\right]\\
-\gamma&=C_p/C_V\\
-H &= U + pV; A = U - TS\\
-G& = U - TS + pV = H -TS = A + pV\\
-dU&=TdS-pdV; \left(\frac{\partial T}{\partial V}\right)_S = -\left(\frac{\partial p}{\partial S}\right)_V\\
-dH&=TdS+Vdp; \left(\frac{\partial T}{\partial p}\right)_S = \left(\frac{\partial V}{\partial S}\right)_p\\
-dA&=-SdT-pdV; \left(\frac{\partial S}{\partial V}\right)_T = \left(\frac{\partial p}{\partial T}\right)_V\\
-dG&=-SdT+Vdp; \left(\frac{\partial S}{\partial p}\right)_T = -\left(\frac{\partial V}{\partial T}\right)_p\\
-&\left(\frac{\partial \left(\Delta G/T\right)}{\partial T}\right)_{p}=-\frac{\Delta H}{T^2}\\
-\mu_{JT}&=\left( \frac{\partial T}{\partial p}\right)_H=\frac{T\left(\frac{\partial V}{\partial T}\right)_p -V}{C_p}\\
+%\ulcorner \frac{S}{R}&=\frac{7}{2}+\ln {\left[ \left( \frac{2\pi m k_B T}{h^2}\right)^{3/2}\frac{V}{N}\right]} + \ln {\left[ \frac{T}{\sigma \theta_{rot}}\right]}\ldots\\
+%\ldots + &\frac{\theta_{vib}}{T}\left(\frac{1}{e^{\theta_{vib}/T}-1}\right) - \ln{\left[ 1-e^{-\theta_{vib}/T}\right]} + \ln{\left[ g_{e1}\right]}\lrcorner\\
+%\frac{p_2}{p_1}&=\left(\frac{V_1}{V_2}\right)^{\gamma}\\
+%V_2&=\frac{V_1}{\gamma}\left[\gamma -1 +\frac{p_1}{p_2}\right]\\
+%\gamma&=C_p/C_V\\
+%A &= U - TS\\
+G& = U - TS + pV = H -TS\\ % = A + pV\\
 \end{align*}
+%dU&=TdS-pdV; \left(\frac{\partial T}{\partial V}\right)_S = -\left(\frac{\partial p}{\partial S}\right)_V\\
+%dH&=TdS+Vdp; \left(\frac{\partial T}{\partial p}\right)_S = \left(\frac{\partial V}{\partial S}\right)_p\\
+%dA&=-SdT-pdV; \left(\frac{\partial S}{\partial V}\right)_T = \left(\frac{\partial p}{\partial T}\right)_V\\
+%dG&=-SdT+Vdp; \left(\frac{\partial S}{\partial p}\right)_T = -\left(\frac{\partial V}{\partial T}\right)_p\\
+%&\left(\frac{\partial \left(\Delta G/T\right)}{\partial T}\right)_{p}=-\frac{\Delta H}{T^2}\\
+%\mu_{JT}&=\left( \frac{\partial T}{\partial p}\right)_H=\frac{T\left(\frac{\partial V}{\partial T}\right)_p -V}{C_p}\\
