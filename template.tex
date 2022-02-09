@@ -1,4 +1,4 @@
-\documentclass[10pt]{article}
+\documentclass[12pt]{article}
 \usepackage{multicol}
 \usepackage{calc}
 \usepackage[letterpaper,portrait]{geometry}
@@ -24,18 +24,19 @@
 
 \setlength{\mathindent}{0cm}
 
+\makeatletter
+\def\input@path{{/path/to/latex/files/}}
+\makeatother
+
 \begin{document}
 \raggedcolumns
 
 % adjust the number of columns as needed
-\begin{multicols*}{1}
+\begin{multicols*}{2}
 
 %for each subsection, add a heading (e.g., \subsection) and input the corresponding file
 \subsection{Constants and units}
 \input{constants.tex}
-
-%\subsection{Kinetic Molecular Theory}
-%\input{KMtheory.tex}
 
 \subsection{Thermodynamics}
 \input{thermo.tex}
