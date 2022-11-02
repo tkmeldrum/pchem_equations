@@ -1,0 +1,103 @@
+\subsubsection{General}
+\begin{align*}
+&E=h\nu = \frac{hc}{\lambda}\\
+&\lambda = \frac{h}{p}\\
+%&\Psi\left(x,t\right) = \psi\left(x\right)e^{-i\left(E/\hbar\right)t}\\
+%&\left[-\frac{\hbar^2}{2m} \nabla^2+ V\left(x,t\right)\right]\Psi\left(x,t\right) = i\hbar \frac{\partial \Psi\left(x,t\right)}{\partial t}\\
+&-\frac{\hbar^2}{2m} \frac{\partial ^2}{\partial x^2} \psi\left(x\right)+ V\left(x\right)\psi\left(x\right) = E\psi\left(x\right)\\
+&\hat{H}\psi\left(x\right) = E\psi\left(x\right)\\
+%&\hat{H}\Psi\left(x,t\right) = i\hbar\frac{\partial \Psi\left(x,t\right)}{\partial t}\\
+%&\nabla^2 = \left(\frac{\partial^2}{\partial x^2} +\frac{\partial^2}{\partial y^2} +\frac{\partial^2}{\partial z^2} \right)\\
+&\hat{x}=x\\
+&\hat{p_x}=-i\hbar \frac{\partial}{\partial x}\\
+&\int\psi^*\left(x\right)\psi\left(x\right)dx=1\\
+&\left<a\right> = \frac{\int\psi^*\left(x,t\right)\hat{A}\psi\left(x,t\right)dx}{\int\psi^*\left(x,t\right)\psi\left(x,t\right)dx}\\
+\mu&=\frac{m_1m_2}{m_1+m_2}\\
+\end{align*}
+
+\subsubsection{Particle in a Box}
+\begin{align*}
+&\psi_{1D}\left(x\right) = \sqrt{\frac{2}{a}}\sin \left(\frac{n\pi x}{a} \right); n = 1, 2, 3 \ldots\\
+&E=\frac{h^2n^2}{8ma^2}\\
+\end{align*}
+
+\subsubsection{Harmonic oscillator}
+\begin{align*}
+V_{\textrm{HO}}\left(x\right)&=\frac{1}{2}kx^2\\
+%x_{cm}&=\frac{m_1x_1+m_2x_2}{m_1m_2}\\
+\hat{H}&=\left[-\frac{\hbar^2}{2\mu} \frac{\partial^2}{\partial x^2}+ \frac{1}{2}kx^2\right]\\\
+%\psi_v\left(x\right)&=A_vH_v\left(\alpha^{1/2}x\right)e^{-\frac{1}{2}\alpha x^2}\\
+\psi_{v=0}\left(x\right)&=\left(\frac{\alpha}{\pi}\right)^{1/4}e^{-\frac{1}{2}\alpha x^2}\\
+\psi_{v=1}\left(x\right)&=\left(\frac{4\alpha^3}{\pi}\right)^{1/4}xe^{-\frac{1}{2}\alpha x^2}\\
+\psi_{v=2}\left(x\right)&=\left(\frac{\alpha}{4\pi}\right)^{1/4}\left(2\alpha x^2-1\right)e^{-\frac{1}{2}\alpha x^2}\\
+\alpha&=\sqrt{\frac{k\mu}{\hbar^2}}\\
+%\psi_3\left(x\right)&=\left(\frac{\alpha^3}{9\pi}\right)^{1/4}\left(2\alpha x^3-3x\right)e^{-\frac{1}{2}\alpha x^2}\\
+E_v&=\hbar\sqrt{\frac{k}{\mu}}\left(v+\frac{1}{2}\right)=h\nu\left(v+\frac{1}{2}\right); v = 0, 1, 2, 3, \cdots\\
+\nu&=\frac{1}{2\pi}\sqrt{\frac{k}{\mu}}=\tilde{\nu}c\\
+\end{align*}
+
+\subsubsection{Rotation}
+\begin{align*}
+I&=\mu r^2\\
+L&=I\omega\\
+KE&=\frac{1}{2}I\omega^2\\
+&=\frac{L^2}{2I}\\
+\end{align*}
+
+\subsubsection{2D rigid rotor}
+\begin{align*}
+\hat{H}&=-\frac{\hbar^2}{2\mu r_0^2}\frac{\partial^2}{\partial \phi^2}\\
+\Phi_{m_l}\left(\phi\right)&=\frac{1}{\sqrt{2\pi}}e^{im_l\phi}\\
+m_l&=0, \pm1, \pm2, \cdots\\
+E_{m_l}&=\frac{\hbar^2 m_l^2}{2I}\\
+\end{align*}
+%\hat{L_z}\Phi_{m_l}\left(\phi\right)&=m_l\hbar \Phi_{m_l}\left(\phi\right)
+
+
+\subsubsection{3D rigid rotor}
+\begin{align*}
+\hat{H}&=-\frac{\hbar^2}{2\mu r_0^2}\left[\frac{1}{\sin\theta}\frac{\partial}{\partial \theta}\left(\sin \theta \frac{\partial}{\partial \theta} \right)_{r,\phi} + \frac{1}{\sin^2\theta}\left(\frac{\partial^2}{\partial \phi^2} \right)_{r,\theta}\right]\\
+%Y\left(\theta,\phi\right)&=Y_l^{m_l}\left(\theta,\phi\right) = \Theta_l^{m_l}\left(\theta\right)\Phi_{m_l}\left(\phi\right)\\
+E_l&=\frac{\hbar^2}{2I}l\left(l+1\right)\\
+l&=0, 1, 2, 3, \ldots\\
+m_l&=-l, -\left(l-1\right),\ldots,0,\ldots,\left(l-1\right),l\\
+E_J&=hBJ\left(J+1\right)\\
+B&=\frac{h}{8\pi^2\mu r_0^2}\\
+\end{align*}
+
+\subsubsection{H atom}
+\begin{align*}
+V\left(r\right)&=-\frac{e^2}{4\pi\varepsilon_0 r}\\
+V_{eff}\left(r\right)&=\frac{\hbar^2 l\left(l+1\right)}{2m_er^2}-\frac{e^2}{4\pi\varepsilon_0 r}\\
+E_n&=-\frac{m_ee^4}{8\varepsilon_0^2h^2n^2}=-\frac{e^2}{8\pi\varepsilon_0a_0n^2}\\
+a_0&=\frac{\varepsilon_0h^2}{\pi m_ee^2}\\
+n &= 1, 2, 3, \cdots\\
+l&=0, 1, 2, \cdots, n-1\\
+m_l&= 0, \pm1, \pm2, \cdots, \pm l\\
+\end{align*}
+
+\subsubsection{Radial functions}
+\begin{align*}
+R_{nl}\left(r\right)&=\cdots\\
+R_{10}\left(r\right)&=2\left( \frac{1}{a_0} \right)^{3/2}e^{-r/a_0}\\
+R_{20}\left(r\right)&=\frac{1}{\sqrt{8}}  \left( \frac{1}{a_0} \right)^{3/2} \left( 2-\frac{r}{a_0} \right) e^{-r/2a_0}\\
+R_{21}\left(r\right)&=\frac{1}{\sqrt{24}}  \left( \frac{1}{a_0} \right)^{3/2} \frac{r}{a_0} e^{-r/2a_0}\\
+R_{30}\left(r\right)&=\frac{2}{81\sqrt{3}}  \left( \frac{1}{a_0} \right)^{3/2} \left( 27-18\frac{r}{a_0} +2\frac{r^2}{a_0^2}\right) e^{-r/3a_0}\\
+R_{31}\left(r\right)&=\frac{4}{81\sqrt{6}}  \left( \frac{1}{a_0} \right)^{3/2} \left( 6\frac{r}{a_0} -\frac{r^2}{a_0^2}\right) e^{-r/3a_0}\\
+R_{32}\left(r\right)&=\frac{4}{81\sqrt{30}}  \left( \frac{1}{a_0} \right)^{3/2} \frac{r^2}{a_0^2} e^{-r/3a_0}\\
+P_{nl}\left(r\right)dr&=R^2_{nl}\left(r\right) r^2dr\\
+\end{align*}
+\subsubsection{Full wavefunctions}
+\begin{align*}
+\psi_{nlm_l}\left(r,\theta,\phi \right)&=R_{nl}\left(r\right)Y_l^{m_l}\left(\theta,\phi\right)\\
+&=R_{nl}\left(r\right)Y_{s,p,d,f,\ldots}\left(\theta,\phi\right)\\
+\end{align*}
+%\left[\hat{L_y},\hat{L_z}\right]&=i\hbar\hat{L_x}\\
+%\left[\hat{L_z},\hat{L_x}\right]&=i\hbar\hat{L_y}\\
+
+%\end{align*}
+%&\left[\hat{A},\hat{B}\right] = \hat{A}\hat{B} - \hat{B}\hat{A}\\
+%&\left[\hat{A},\hat{B}\right] = -\left[\hat{B},\hat{A}\right]\\
+%&\Delta p\Delta x \geq \frac{\hbar}{2}\\
+%&E_{variational} = \frac{\int \Phi^*\hat{H}\Phi d\tau}{\int \Phi^*\Phi d\tau}\geq E_0\\
+
